@@ -1,1 +1,2 @@
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+npx.cmd expo start
