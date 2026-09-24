@@ -39,7 +39,7 @@ export default function Page() {
         </Text> 
        </View>
 
-              <View> 
+        <View> 
         <Text style={styles.subtitle2}>Tenderheart</Text>
         <Text style={styles.subtitle3}>Bear</Text>
           <Image
@@ -51,6 +51,36 @@ export default function Page() {
         </Text>
         <Text style={{ fontSize: 20, marginTop: 20, textAlign: "justify", fontFamily: "arial", color: "#803a3a",}}>
           Tenderheart Bear acreditava que o amor é a força mais poderosa do mundo e que, com dedicação e empatia, podia transformar até os dias mais sombrios em momentos de beleza e esperança.
+        </Text>
+      </View>
+
+        <View> 
+        <Text style={styles.subtitle}>Funshine</Text>
+        <Text style={styles.subtitle1}>Bear</Text>
+          <Image
+          source={ require("../assets/ursinhoamarelo.jpeg") }
+          style={styles.image}
+        />
+        <Text style={{ fontSize: 20, marginTop: 30, textAlign: "justify", fontFamily: "arial", color: "#803a3a",}}>
+          Funshine Bear era um ursinho amarelo com um coração cheio de alegria e energia. Ele era conhecido por sua natureza radiante e por sempre estar disposto a trazer luz para os outros. Seu símbolo na barriga era um sol brilhante, representando sua habilidade de dissipar a tristeza e trazer felicidade para todos os que o rodeavam.
+        </Text>
+        <Text style={{ fontSize: 20, marginTop: 20, textAlign: "justify", fontFamily: "arial", color: "#803a3a",}}>
+          Funshine Bear acreditava que a alegria é a força mais poderosa do mundo e que, com entusiasmo e bondade, podia transformar até os dias mais nublados em momentos de beleza e esperança.
+        </Text>
+      </View>
+
+      <View> 
+        <Text style={styles.subtitle2}>Cheer</Text>
+        <Text style={styles.subtitle3}>Bear</Text>
+          <Image
+          source={ require("../assets/ursorosa.jpeg") }
+          style={styles.image1}
+        />
+        <Text style={{ fontSize: 20, marginTop: 30, textAlign: "justify", fontFamily: "arial", color: "#803a3a",}}>
+          Cheer Bear era um ursinho marrom com um coração cheio de alegria e energia. Ele era conhecido por sua natureza radiante e por sempre estar disposto a trazer luz para os outros. Seu símbolo na barriga era um sol brilhante, representando sua habilidade de dissipar a tristeza e trazer felicidade para todos os que o rodeavam.
+        </Text>
+        <Text style={{ fontSize: 20, marginTop: 20, textAlign: "justify", fontFamily: "arial", color: "#803a3a",}}>
+          Cheer Bear acreditava que a alegria é a força mais poderosa do mundo e que, com entusiasmo e bondade, podia transformar até os dias mais nublados em momentos de beleza e esperança.
         </Text>
       </View>
 
